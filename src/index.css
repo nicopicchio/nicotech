@@ -5,14 +5,97 @@
 }
 
 body{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Comfortaa';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #202020;
+  color: #4d7e9c;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.home-container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+}
+
+header {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+h1,
+.logo-span {
+  font-size: 4rem;
+}
+
+.logo-span {
+  font-weight: 300;
+}
+
+.navigation {
+  height: 8rem;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation li {
+  margin-right: 3rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.hero-text {
+  display: grid;
+  place-content: center;
+}
+
+.hero-image {
+  display: grid;
+  place-content: center;
+}
+
+.who-am-i {
+  color: orange;
+}
+
+.hero-message {
+  font-size: 3rem;
+  width: 25ch;
+  line-height: 1.5;
+}
+
+.footer-right {
+  margin-right: 3rem;
+}
+
+.footer-left {
+  margin-left: 3rem;
+}
+
+.social-icon-github {
+  margin-right: 1rem;
 }
