@@ -100,3 +100,12 @@ h1,
 .social-icon-github {
   margin-right: 1rem;
 }
+
+.nav-links {
+  text-decoration: none;
+  color: #4d7e9c;
+}
+
+.nav-links:hover {
+  color: orange;
+}

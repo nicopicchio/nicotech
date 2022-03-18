@@ -11,16 +11,16 @@ function Header() {
 			<nav>
 				<ul className='navigation'>
 					<li>
-						<Link to='/'>Home</Link>
+						<Link className='nav-links' to='/'>Home</Link>
 					</li>
 					<li>
-						<Link to='/about'>About</Link>
+						<Link className='nav-links' to='/about'>About</Link>
 					</li>
 					<li>
-						<Link to='/portfolio'>Portfolio</Link>
+						<Link className='nav-links' to='/portfolio'>Portfolio</Link>
 					</li>
 					<li>
-						<Link to='/contact'>Contact</Link>
+						<Link className='nav-links' to='/contact'>Contact</Link>
 					</li>
 				</ul>
 			</nav>
