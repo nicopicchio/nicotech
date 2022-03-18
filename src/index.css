@@ -8,7 +8,7 @@ body{
   font-family: 'Comfortaa';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #202020;
+  background: #16171d;
   color: #4d7e9c;
 }
 
@@ -52,6 +52,7 @@ h1,
 
 .logo-span {
   font-weight: 300;
+  color: orange;
 }
 
 .navigation {
