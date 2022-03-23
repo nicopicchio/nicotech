@@ -130,6 +130,18 @@ h1,
 	}
 }
 
+#portfolio-container {
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.portfolio-card {
+	margin: auto;
+	width: 400px;
+	height: 500px;
+	border: 1px solid orange;
+}
+
 .footer-right {
 	margin-right: 3rem;
 }

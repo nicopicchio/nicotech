@@ -1,5 +1,17 @@
 function Portfolio() {
-	return <p>Portfolio section</p>;
+	return (
+		<div id="portfolio-container">
+			<div className="portfolio-card">
+
+			</div>
+			<div className="portfolio-card">
+
+			</div>
+			<div className="portfolio-card">
+
+			</div>
+		</div>
+	)
 }
 
 export default Portfolio;
