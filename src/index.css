@@ -20,12 +20,12 @@ code {
 .home-container {
 	height: 100vh;
 	display: grid;
-	grid-template-rows: 1fr 8fr 1fr;
+	grid-template-rows: max-content 1fr max-content;
 }
 
 header {
-	display: grid;
-	grid-template-columns: max-content 1fr;
+	display: flex;
+	justify-content: space-between;
 }
 
 main,
@@ -38,9 +38,11 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin: 3rem 0rem;
 }
 
 .logo {
+	height: 8rem;
 	display: flex;
 	align-items: center;
 	margin-left: 3rem;
