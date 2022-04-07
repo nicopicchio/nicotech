@@ -4,17 +4,27 @@ function About() {
 	return (
 		<div id='about-section'>
 			<div className='about-me-container'>
-				<h3 className='about-me-title'>About me</h3>
+				<h3 className='about-me-title'>About</h3>
 				<p className='about-me-text'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed
-					finibus lacus. Praesent elementum, tellus et accumsan malesuada, urna
-					tortor luctus libero, in molestie urna nulla ac mauris. Nulla vel
-					pharetra massa, in faucibus lectus. Cras quis condimentum ligula, vel
-					pharetra lorem. In lacus ipsum, varius et erat sed, viverra varius
-					sapien. Sed in feugiat dui. Ut congue erat id nisi dapibus aliquam
-					vitae eget mauris. In hac habitasse platea dictumst. Vestibulum in
-					bibendum est. Vivamus sit amet mauris ac enim ultrices suscipit vel
-					eget risus.
+					My name is Nico Picchio and I am a full stack software developer based
+					in the Midlands of the UK.
+				</p>
+				<p className='about-me-text'>
+					I am extremely passionate about tech, problem solving and creating
+					things for the web.
+				</p>
+				<p className='about-me-text'>
+					My love with tech sparked at the end of the 80s when I was given my
+					first computer, an Apple Macintosh Plus (which I still own) and that
+					was it.
+				</p>
+				<p className='about-me-text'>
+					I started teaching myself to code in early 2020 and I got instantly
+					hooked. Writing simple lines of code suddenly becoming usable art,
+					combined with my love for technology, design and photography were good
+					enough reasons to make me realise that I wanted to leave my career in
+					Intensive Care Nursing and switch to programming. And the rest is
+					history.
 				</p>
 			</div>
 			<div className='profile-image-container'>

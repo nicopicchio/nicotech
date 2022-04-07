@@ -50,7 +50,7 @@ footer {
 
 h1,
 .logo-span {
-	font-size: 4rem;
+	font-size: 5rem;
 }
 
 .contact-form-title,
@@ -72,7 +72,7 @@ h1,
 
 .navigation li {
 	margin-right: 3rem;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 }
 
@@ -84,7 +84,7 @@ h1,
 }
 
 .hero-message {
-	font-size: 3rem;
+	font-size: 5rem;
 	width: 25ch;
 	line-height: 1.5;
 }
@@ -105,9 +105,8 @@ h1,
 
 .about-me-text {
 	width: 60ch;
-	line-height: 2.5;
-	font-size: 1.2rem;
-	text-align: justify;
+	line-height: 2;
+	font-size: 1.5rem;
   animation: fade-in 2s;
 }
 
@@ -153,7 +152,7 @@ h1,
 }
 
 .social-icon-github {
-	margin-right: 1rem;
+	margin-right: 2rem;
 }
 
 .nav-links {
@@ -221,4 +220,10 @@ button {
 	color: #16171d;
 	border-style: none;
 	border-radius: 30px;
+	transition: 0.5s;
+}
+
+button:hover {
+	background: #4d7e9c;
+	color: orange;
 }
