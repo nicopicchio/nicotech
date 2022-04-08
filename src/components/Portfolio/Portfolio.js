@@ -10,6 +10,9 @@ function Portfolio() {
 			<div className="portfolio-card">
 
 			</div>
+			<div className="portfolio-card">
+
+			</div>
 		</div>
 	)
 }

@@ -74,6 +74,22 @@ h1,
 	margin-right: 3rem;
 	font-size: 1.5rem;
 	font-weight: 400;
+	position: relative;
+}
+
+.navigation li:after {
+	content: "";
+	position: absolute;
+	background-color: orange;
+	height: 2px;
+	width: 0;
+	left: 0;
+	bottom: -8px;
+	transition: 0.5s;
+}
+
+.navigation li:hover:after {
+	width: 100%;
 }
 
 .hero-text,
@@ -139,8 +155,9 @@ h1,
 .portfolio-card {
 	margin: auto;
 	width: 400px;
-	height: 500px;
+	height: 600px;
 	border: 1px solid orange;
+	border-radius: 16px;
 }
 
 .footer-right {

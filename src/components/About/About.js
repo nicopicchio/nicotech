@@ -14,12 +14,12 @@ function About() {
 					things for the web.
 				</p>
 				<p className='about-me-text'>
-					My love with tech sparked at the end of the 80s when I was given my
+					My love with tech sparked at the end of the 80's when I was given my
 					first computer, an Apple Macintosh Plus (which I still own) and that
 					was it.
 				</p>
 				<p className='about-me-text'>
-					I started teaching myself to code in early 2020 and I got instantly
+					I started teaching myself to code in early 2020 and I was instantly
 					hooked. Writing simple lines of code suddenly becoming usable art,
 					combined with my love for technology, design and photography were good
 					enough reasons to make me realise that I wanted to leave my career in
@@ -30,7 +30,7 @@ function About() {
 			<div className='profile-image-container'>
 				<img
 					src={profileImg}
-					alt='profile photo'
+					alt='headshot'
 					className='profile-image'
 					width='510px'
 				/>
