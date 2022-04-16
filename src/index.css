@@ -38,7 +38,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 3rem 0rem;
+	margin: 2rem 0rem;
 }
 
 .logo {
@@ -77,7 +77,7 @@ h1,
 	position: relative;
 }
 
-.navigation li:after {
+.navigation li::after {
 	content: "";
 	position: absolute;
 	background-color: orange;
@@ -88,7 +88,7 @@ h1,
 	transition: 0.5s;
 }
 
-.navigation li:hover:after {
+.navigation li:hover::after {
 	width: 100%;
 }
 
@@ -135,7 +135,7 @@ h1,
 .profile-image {
 	border-radius: 50%;
 	border: 2px solid orange;
-	animation: fade-in 3s;
+	animation: fade-in 2s;
 }
 
 @keyframes fade-in {
@@ -153,11 +153,33 @@ h1,
 }
 
 .portfolio-card {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
 	margin: auto;
 	width: 400px;
 	height: 600px;
 	border: 1px solid orange;
 	border-radius: 16px;
+	animation: fade-in 2s;
+	transition: 0.5s;
+}
+
+.portfolio-card:hover {
+	transform: scale(1.10);
+}
+
+.portfolio-card-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 16px 16px 0 0;
+	border-bottom: 1px solid orange;
+	object-fit: cover;
+}
+
+.portfolio-card-descr {
+	display: grid;
+	place-content: center;
+	color: #4d7e9c;
 }
 
 .footer-right {
@@ -201,12 +223,12 @@ h1,
 	margin-bottom: 0.5rem;
 }
 
-#contact-form-button {
+#contact-form-button-container {
 	display: flex;
 	place-content: center;
 }
 
-input {
+.form-input {
 	display: block;
 	width: 60%;
 	height: 2.2rem;
@@ -243,4 +265,52 @@ button {
 button:hover {
 	background: #4d7e9c;
 	color: orange;
+}
+
+@media screen and (max-width: 1920px) {
+	.hero-message {
+		font-size: 3rem;
+	}
+
+	.hero-illustration {
+		width: 500px;
+	}
+
+	.about-me-title {
+		font-size: 2rem;
+	}
+
+	.about-me-text {
+		font-size: 1.2rem;
+	}
+
+	.profile-image {
+		width: 400px;
+	}
+
+	.portfolio-card {
+		width: 300px;
+		height: 450px;
+	}
+
+	#contact-form {
+		width: 35rem;
+	}
+
+	.contact-form-title {
+		margin-bottom: 2rem;
+	}
+
+	.form-input {
+		margin-bottom: 1rem;
+		width: 80%;
+	}
+
+	.message-input {
+		height: 180px;
+	}
+
+	button {
+		margin-top: 2rem;
+	}
 }

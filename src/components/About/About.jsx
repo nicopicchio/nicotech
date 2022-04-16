@@ -30,7 +30,7 @@ function About() {
 					src={profileImg}
 					alt='headshot'
 					className='profile-image'
-					width='510px'
+					width='500px'
 				/>
 			</div>
 		</div>

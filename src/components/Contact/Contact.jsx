@@ -5,18 +5,18 @@ function Contact() {
 			<label className='form-label'>
 				Name<span className='required-field'>*</span>
 			</label>
-			<input type='text' name='name' required />
+			<input className='form-input' type='text' name='name' required />
 			<label className='form-label'>
 				Email<span className='required-field'>*</span>
 			</label>
-			<input type='email' name='email' required />
-			<label className='form-label'>Phone number</label>
-			<input type='text' />
+			<input className='form-input' type='email' name='email' required />
+			<label className='form-label'>Phone</label>
+			<input className='form-input' type='text' />
 			<label className='form-label'>
 				Enquiry<span className='required-field'>*</span>
 			</label>
-			<textarea type='text' name='message' cols='40' rows='10' required />
-			<div id='contact-form-button'>
+			<textarea className='message-input' type='text' name='message' cols='40' rows='10' required />
+			<div id='contact-form-button-container'>
 				<button type='submit' value='submit'>
 					Submit
 				</button>
