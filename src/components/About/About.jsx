@@ -14,7 +14,7 @@ function About() {
 					things for the web.
 				</p>
 				<p className='about-me-text'>
-					In the late 80's I was given my first computer, an Apple Machintosh
+					In the late 80's I was given my first computer, an Apple Macintosh
 					Plus, which I still proudly own and which sparked my love for
 					technology. I have been hooked ever since.
 				</p>
