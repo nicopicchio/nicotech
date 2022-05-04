@@ -314,3 +314,95 @@ button:hover {
 		margin-top: 2rem;
 	}
 }
+
+@media screen and (max-width: 1280px) {
+	h1,
+	.logo-span {
+		font-size: 3.5rem;
+	}
+
+	.navigation li {
+		font-size: 1.2rem;
+	}
+
+	.hero-message {
+		font-size: 2.5rem;
+	}
+
+	.hero-illustration {
+		width: 400px;
+	}
+
+	.about-me-title {
+		font-size: 1.5rem;
+	}
+
+	.about-me-text {
+		font-size: 1rem;
+		margin-left: 3rem;
+	}
+
+	.profile-image {
+		width: 350px;
+	}
+
+	.portfolio-card {
+		width: 250px;
+		height: 400px;
+	}
+
+	#contact-form {
+		width: 30rem;
+		padding: 2rem 3.5rem;
+	}
+
+	.contact-form-title {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.form-label {
+		font-size: 1rem;
+	}
+
+	.form-input {
+		margin-bottom: 0.5rem;
+		height: 60%;
+		width: 80%;
+	}
+
+	.message-input {
+		height: 150px;
+	}
+
+	button {
+		margin-top: 2rem;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	header {
+		display: grid;
+		place-content: center;
+	}
+
+	.logo {
+		display: grid;
+		margin: 0;
+		place-items: center;
+	}
+
+	.logo,
+	.navigation {
+		height: 6rem;
+		display: grid;
+		grid-auto-flow: column;
+		justify-content: center;
+	}
+
+	.navigation li {
+		margin-bottom: 3rem;
+		margin-right: 0;
+		padding: 1rem 1.5rem;
+	}
+}
