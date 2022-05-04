@@ -8,7 +8,10 @@ function Footer() {
 				<p>Copyright nicotech 2022. All rights reserved.</p>
 			</div>
 			<div className='footer-right'>
-				<a href='https://github.com/nicopicchio' target='_blank'>
+				<a
+					href='https://github.com/nicopicchio'
+					target='_blank'
+					rel='noreferrer'>
 					<img
 						className='social-icon-github'
 						src={githubLogo}
@@ -16,7 +19,10 @@ function Footer() {
 						width='40px'
 					/>
 				</a>
-				<a href='https://www.linkedin.com/in/nicolapicchio/' target='_blank'>
+				<a
+					href='https://www.linkedin.com/in/nicolapicchio/'
+					target='_blank'
+					rel='noreferrer'>
 					<img
 						className='social-icon-linkedin'
 						src={linkedInLogo}
@@ -29,4 +35,4 @@ function Footer() {
 	);
 }
 
-export default Footer
+export default Footer;
