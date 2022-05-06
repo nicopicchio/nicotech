@@ -19,10 +19,10 @@ function About() {
 					technology. I have been hooked ever since.
 				</p>
 				<p className='about-me-text'>
-					I started teaching myself to code in 2020 and I was instantly
-					inspired by it. Writing simple lines of code which create immediately
-					usable art, combined with my love for tech, design and photography
-					were solid reasons which inspired me to be a software developer.
+					I started teaching myself to code in 2020 and I was instantly inspired
+					by it. Writing simple lines of code which create immediately usable
+					art, combined with my love for tech, design and photography were solid
+					reasons which inspired me to be a software developer.
 				</p>
 			</div>
 			<div className='profile-image-container'>
@@ -32,6 +32,9 @@ function About() {
 					className='profile-image'
 					width='500px'
 				/>
+				<a href='src/Nico-Picchio-CV.pdf' className='cv-download-link' download>
+					Download my CV
+				</a>
 			</div>
 		</div>
 	);

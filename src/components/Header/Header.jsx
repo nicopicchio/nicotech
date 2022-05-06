@@ -20,7 +20,7 @@ function Header() {
 						<Link className='nav-links' to='/portfolio'>Portfolio</Link>
 					</li>
 					<li>
-						<Link className='nav-links' to='/contact'>Contact</Link>
+						<Link className='nav-links contact-link' to='/contact'>Contact</Link>
 					</li>
 				</ul>
 			</nav>
