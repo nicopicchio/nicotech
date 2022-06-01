@@ -400,7 +400,7 @@ button:hover {
 
 	.navigation li {
 		margin-right: 0;
-		padding: 1rem 1.5rem;
+		padding: 0.5rem 1rem;
 	}
 
 	main,
@@ -417,7 +417,12 @@ button:hover {
 		gap: 4rem;
 	}
 
+	.hero-illustration {
+		width: 300px;
+	}
+
 	.hero-message {
+		font-size: 1.8rem;
 		width: 400px;
 		text-align: center;
 	}
