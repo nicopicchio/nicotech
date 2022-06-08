@@ -4,7 +4,6 @@ function About() {
 	return (
 		<div id='about-section'>
 			<div className='about-me-container'>
-				<h3 className='about-me-title'>About</h3>
 				<p className='about-me-text'>
 					Hey! My name is Nico Picchio and I am a full stack software developer
 					based in the Midlands, UK.

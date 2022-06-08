@@ -51,7 +51,6 @@ h1,
 .contact-form-title,
 .logo-span,
 .who-am-i,
-.about-me-title,
 .required-field,
 .nav-links:hover {
 	color: orange;
@@ -105,13 +104,6 @@ h1,
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-
-.about-me-title {
-	font-size: 3rem;
-	font-style: italic;
-	margin-bottom: 3rem;
-  animation: fade-in 2s;
 }
 
 .about-me-text {
@@ -276,10 +268,6 @@ button:hover {
 		width: 500px;
 	}
 
-	.about-me-title {
-		font-size: 2rem;
-	}
-
 	.about-me-text {
 		font-size: 1.2rem;
 	}
@@ -330,10 +318,6 @@ button:hover {
 
 	.hero-illustration {
 		width: 400px;
-	}
-
-	.about-me-title {
-		font-size: 1.5rem;
 	}
 
 	.about-me-text {
@@ -455,10 +439,6 @@ button:hover {
 
 	.profile-image {
 		width: 100px
-	}
-
-	.about-me-title {
-		margin-bottom: 1rem;
 	}
 
 	.about-me-text {
