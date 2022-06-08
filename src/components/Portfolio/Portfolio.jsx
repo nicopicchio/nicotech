@@ -1,4 +1,4 @@
-import cubeSampleImg from '../../images/cube-sample.jpg';
+import cubeSampleImg from '../../assets/cube-sample.jpg';
 
 function Portfolio() {
 	return (

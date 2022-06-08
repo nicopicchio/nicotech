@@ -1,4 +1,4 @@
-import profileImg from '../../images/profile-photo.jpg';
+import profileImg from '../../assets/profile-photo.jpg';
 
 function About() {
 	return (
@@ -31,7 +31,7 @@ function About() {
 					className='profile-image'
 					width='500px'
 				/>
-				<a href='src/Nico-Picchio-CV.pdf' className='cv-download-link' download>
+				<a href='src/assets/nico-picchio-resume.pdf' className='cv-download-link' download>
 					Download my CV
 				</a>
 			</div>
