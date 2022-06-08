@@ -454,4 +454,8 @@ button:hover {
 		height: 350px;
 	}
 
+	#contact-form {
+		width: 24rem;
+	}
+
 }
