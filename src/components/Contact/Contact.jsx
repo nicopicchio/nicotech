@@ -1,6 +1,6 @@
 function Contact() {
 	return (
-		<form id='contact-form' action='https://formsubmit.co/nico@nicotech.dev' method='POST'>
+		<form id='contact-form' action='https://formsubmit.co/nicolapicchio@gmail.com' method='POST'>
 			<h2 className='contact-form-title'>Get in touch!</h2>
 			<label className='form-label'>
 				Name<span className='required-field'>*</span>
