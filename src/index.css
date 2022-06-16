@@ -48,6 +48,11 @@ h1,
 	font-size: 5rem;
 }
 
+.portfolio-card-link {
+	color: orange;
+	text-decoration: none;
+}
+
 .contact-form-title,
 .logo-span,
 .who-am-i,
@@ -147,7 +152,7 @@ h1,
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
 	place-content: center;
-	gap: 2rem;
+	gap: 6rem;
 }
 
 .portfolio-card {
