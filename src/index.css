@@ -455,6 +455,10 @@ button:hover {
 		width: 100%;
 	}
 
+	#portfolio-container {
+		gap: 3rem;
+	}
+
 	.portfolio-card {
 		height: 350px;
 	}
