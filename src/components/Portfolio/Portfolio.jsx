@@ -27,7 +27,7 @@ function Portfolio() {
 				className='portfolio-card-link'
 				target='_blank'
 				rel='noreferrer'
-				href='https://github.com/nicopicchio/carbon-footprint'>
+				href='https://carbonfootprintchecker.netlify.app/'>
 				<div className='portfolio-card'>
 					<div className='portfolio-card-img'>
 						<img
